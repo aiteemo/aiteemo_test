@@ -1,0 +1,23 @@
+{
+  "name": "aiteemo/test",
+  "description": "this is test package",
+  "keywords": [
+    "aiteemo",
+    "test"
+  ],
+  "homepage": "https://github.com/teemobaby/aiteemo_test.git",
+  "authors": [
+    {
+      "name": "jingfeng cheng",
+      "email": "aiteemo@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aiteemo\\": "src/"
+    }
+  }
+}
